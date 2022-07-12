@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(147, 189, 147, 0.153);
+    font-size: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.red{
+    background-color: rgba(169, 112, 112, 0.214);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 60px;
+}
+
+section{
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    background:  #242121;
+    height: 20vh;
+    box-shadow: 0px 0px 20px 5px rgba(252, 121, 135, 0.25);
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    color: #FC7987;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+body{
+    background: #242121 ;
+}
